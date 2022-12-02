@@ -8,14 +8,14 @@ namespace aoc
     {
         public static void Part1()
         {
-            string[] lines = Properties.Resources.input.Split('\n');
+            string[] lines = Properties.Resources.input_day1.Split('\n');
 
             int highest = 0;
             int current = 0;
 
             for (int i = 0; i < lines.Length; ++i)
             {
-                if (lines[i] == "")
+                if (lines[i].Trim() == "")
                 {
                     highest = Math.Max(highest, current);
                     current = 0;
@@ -31,7 +31,7 @@ namespace aoc
 
         public static void Part2()
         {
-            string[] lines = Properties.Resources.input.Split('\n');
+            string[] lines = Properties.Resources.input_day1.Split('\n');
 
             List<int> caloriesPerElf = new List<int>();
 
@@ -39,7 +39,7 @@ namespace aoc
 
             for (int i = 0; i < lines.Length; ++i)
             {
-                if (lines[i] == "")
+                if (lines[i].Trim() == "")
                 {
                     caloriesPerElf.Add(current);
                     current = 0;
