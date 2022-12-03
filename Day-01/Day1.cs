@@ -8,7 +8,7 @@ namespace aoc
     {
         public static void Part1()
         {
-            string[] lines = Properties.Resources.input_day1.Split('\n');
+            string[] lines = Input.AsLines(1, false);
 
             int highest = 0;
             int current = 0;
@@ -31,7 +31,7 @@ namespace aoc
 
         public static void Part2()
         {
-            string[] lines = Properties.Resources.input_day1.Split('\n');
+            string[] lines = Input.AsLines(1, false);
 
             List<int> caloriesPerElf = new List<int>();
 

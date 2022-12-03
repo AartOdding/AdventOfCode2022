@@ -9,7 +9,7 @@ namespace aoc
     {
         public static void Part1()
         {
-            string[] lines = Properties.Resources.input_day3.Split('\n', StringSplitOptions.RemoveEmptyEntries);
+            string[] lines = Input.AsLines(3, true);
             int totalScore = 0;
 
             foreach (var line in lines)
@@ -42,7 +42,7 @@ namespace aoc
 
         public static void Part2()
         {
-            string[] lines = Properties.Resources.input_day3.Split('\n', StringSplitOptions.RemoveEmptyEntries);
+            string[] lines = Input.AsLines(3, true);
             int totalScore = 0;
 
             for (int g = 0; g < lines.Length; g += 3)

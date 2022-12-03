@@ -54,7 +54,7 @@ namespace aoc
 
         public static void Part1()
         {
-            string[] lines = Properties.Resources.input_day2.Split('\n', StringSplitOptions.RemoveEmptyEntries);
+            string[] lines = Input.AsLines(2, true);
 
             int points = 0;
 
@@ -63,12 +63,12 @@ namespace aoc
                 points += ScoreForRound(line[0], line[2]);
             }
 
-            Console.WriteLine($"{points}");
+            Console.WriteLine($"Following the first strategy guide will result in {points} points.");
         }
 
         public static void Part2()
         {
-            string[] lines = Properties.Resources.input_day2.Split('\n', StringSplitOptions.RemoveEmptyEntries);
+            string[] lines = Input.AsLines(2, true);
 
             int points = 0;
 
@@ -77,7 +77,7 @@ namespace aoc
                 points += ScoreForRoundWithResult(line[0], line[2]);
             }
 
-            Console.WriteLine($"{points}");
+            Console.WriteLine($"Following the second strategy guide will result in {points} points.");
         }
     }
 }
