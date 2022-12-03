@@ -294,5 +294,80 @@ namespace aoc.Properties {
                 return ResourceManager.GetString("input_day2", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to QtGHnGlcwQGvHwMHGnnGfRFCJnRBfVVJRVBfCFBh
+        ///qsDjzNWhmspNNqVrfjVfjJCbBVfB
+        ///DLhPTmNDTzTqzpmzLpswGMHtMgwglcPQMQvSGM
+        ///ctwDjvgtltgglHrSHCsQWBBDfS
+        ///ZJZdVnmhmfCprnBTfS
+        ///dNddhhdPRRdbdNcvwCPCgCctjPlF
+        ///MNNDGMWrQsfhtrTnrm
+        ///jcvRPRPJdvccRNFNCjLdcwJCSHtHPmzhsSzPHmfhnftnTffH
+        ///RddRcjRvZgZNWNgQQb
+        ///fPrvhqhRPSfCCfhrqtbtLcmZmtHCtpCFcc
+        ///WFQJlTdzgGJVQGWQTzdJcHbQZtLtHmbbZMZHsZQm
+        ///JFNlzTBNJGlNPSRhfqRRrN
+        ///tdVVgttdDtJJsNPmzdQmjcPP
+        ///CBTMmmmbTBHqHMwQcZPWWsWnzbbnzW
+        ///CGlLFCTMGvqBGvGvGSRSRfmtRRtgVgrSLS
+        ///LHSGJLWZLqHQHpRHRz
+        ///bpBPVtpCwPgBCtqq [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string input_day3 {
+            get {
+                return ResourceManager.GetString("input_day3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string input_day4 {
+            get {
+                return ResourceManager.GetString("input_day4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string input_day5 {
+            get {
+                return ResourceManager.GetString("input_day5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to vJrwpWtwJgWrhcsFMMfFFhFp
+        ///jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
+        ///PmmdzqPrVvPwwTWBwg
+        ///wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn
+        ///ttgJtRGJQctTZtZT
+        ///CrZsJsPPZsGzwwsLwLmpwMDw.
+        /// </summary>
+        internal static string test_input_day3 {
+            get {
+                return ResourceManager.GetString("test_input_day3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string test_input_day4 {
+            get {
+                return ResourceManager.GetString("test_input_day4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string test_input_day5 {
+            get {
+                return ResourceManager.GetString("test_input_day5", resourceCulture);
+            }
+        }
     }
 }
