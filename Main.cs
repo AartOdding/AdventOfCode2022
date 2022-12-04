@@ -11,7 +11,7 @@ namespace aoc
             // Sets the current directory to the root folder of the project.
             Directory.SetCurrentDirectory(Path.Combine(Directory.GetCurrentDirectory(), "../../.."));
 
-            Input.UseTestData = true;
+            //Input.UseTestData = true;
 
             //Day1.Part1();
             //Day1.Part2();

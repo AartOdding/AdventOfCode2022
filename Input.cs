@@ -14,7 +14,7 @@ namespace aoc
         public static string AsString(int day)
         {
             string dayString = $"Day-{day:00}";
-            string fileName = UseTestData ? "test_input" : "input.txt";
+            string fileName = UseTestData ? "test_input.txt" : "input.txt";
             return File.ReadAllText(Path.Combine(dayString, fileName));
         }
 
