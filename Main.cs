@@ -28,8 +28,8 @@ namespace aoc
             //Day5.Part1();
             //Day5.Part2();
 
-            Day7.Part1();
-            Day7.Part2();
+            Day8.Part1();
+            Day8.Part2();
         }
     }
 }
